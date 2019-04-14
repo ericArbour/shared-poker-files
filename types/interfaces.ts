@@ -1,11 +1,11 @@
 export interface ITable {
   id: string;
   name: string;
-  players: IPlayer[];
+  playerCount: number;
+  isPlaying: boolean;
 }
 
 export interface IPlayer {
   id: string;
-  holeCards: string;
   chipCount: number;
 }
