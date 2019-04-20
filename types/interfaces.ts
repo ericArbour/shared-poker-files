@@ -1,7 +1,7 @@
 export interface ITable {
   id: string;
   name: string;
-  playerCount: number;
+  players: IPlayer[];
   isPlaying: boolean;
 }
 
